@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-HK">
+  <head>
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>喵庭 Meow Yard</title>
+    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
+    <style id="expo-reset">
+      /* These styles make the body full-height */
+      html,
+      body {
+        height: 100%;
+      }
+      /* These styles disable body scrolling if you are using <ScrollView> */
+      body {
+        overflow: hidden;
+      }
+      /* These styles make the root element full-height */
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+    </style>
+  <meta name="theme-color" content="#F08A5D">
+<meta name="description" content="放置掛機養成：收集同養成貓咪。Idle cat-raising game.">
+<link rel="icon" href="/cat-idle-web-preview/favicon.ico"/>  <link rel="manifest" href="/cat-idle-web-preview/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/cat-idle-web-preview/icon.png" />
+    <meta name="theme-color" content="#F08A5D" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700;900&family=Nunito:wght@600;800;900&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Use static rendering with Expo Router to support running without JavaScript. -->
+    <noscript> You need to enable JavaScript to run this app. </noscript>
+    <!-- The root element for your Expo app. -->
+    <div id="root"></div>
+  <script src="/cat-idle-web-preview/_expo/static/js/web/index-95b18c2ee6540b4e2acb9c738517117b.js" defer></script>
+  <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/cat-idle-web-preview/sw.js', { scope: '/cat-idle-web-preview/' });
+      }
+    </script>
+  </body>
+</html>

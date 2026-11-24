@@ -1,0 +1,24 @@
+{
+  "name": "喵庭 Meow Yard",
+  "short_name": "喵庭",
+  "description": "放置掛機養成：收集同養成貓咪。Idle cat-raising game.",
+  "start_url": "/cat-idle-web-preview/",
+  "scope": "/cat-idle-web-preview/",
+  "display": "standalone",
+  "background_color": "#FFF6EB",
+  "theme_color": "#F08A5D",
+  "lang": "zh-HK",
+  "icons": [
+    {
+      "src": "/cat-idle-web-preview/icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/cat-idle-web-preview/favicon.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    }
+  ]
+}
