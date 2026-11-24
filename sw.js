@@ -1,4 +1,4 @@
-const CACHE = 'meowyard-v4';
+const CACHE = 'meowyard-v5';
 const BASE = '/cat-idle-web-preview/';
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll([BASE, BASE + 'index.html', BASE + 'manifest.webmanifest'])));
